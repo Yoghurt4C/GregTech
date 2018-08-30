@@ -27,8 +27,7 @@ public class MetaFluids {
 
     public static final Fluid DISTILLED_WATER = new Fluid("distilled_water",
         new ResourceLocation("blocks/water_still"),
-        new ResourceLocation("blocks/water_flow"))
-        .setBlock(Blocks.WATER);
+        new ResourceLocation("blocks/water_flow"));
 
     public enum FluidType {
         LIQUID(""),
